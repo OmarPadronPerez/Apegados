@@ -1,0 +1,7 @@
+#regla *{
+    margin: 0;
+}
+#regla div{
+    border: red 3px solid;
+    margin: 0;
+}
