@@ -1,4 +1,4 @@
-#banner
+.banner
     div{
         text-align: center;
     }
@@ -6,28 +6,49 @@
         max-height: 200px;
         
     }
+nav 
+    div{
+        display: inline-flex;
+    }
+    a{
+        margin:5px; 
+    }
+    .icono{
+        height: 35px !important; 
+        width: 35px !important;
+               
+    } 
 
-    
-    
-    
-    /* Small devices (landscape phones, 576px and up)*/
-    @media (min-width: 576px) { 
-        #datos2 div{
-            height: 33.33%;
-        }
-     }
-    
-    /* Medium devices (tablets, 768px and up)*/
-    @media (min-width: 768px) { 
+    .icoHome{
+	    background: url('../imagenes/iconos.png') no-repeat -515px -156px;
+    }
 
-     }
+    .icoPerfil{
+	    background: url('../imagenes/iconos.png') no-repeat -517px -47px;
+    }
+
+
+ /* Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 576px) { 
+    .datos div{
+        height: 33.33%;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
     
-    /* Large devices (desktops, 992px and up)*/
-    @media (min-width: 992px) { 
-        
-     }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
     
-    /* Extra large devices (large desktops, 1200px and up)*/
-    @media (min-width: 1200px) { 
-        
-     }
+ }
+    
+    
+   
