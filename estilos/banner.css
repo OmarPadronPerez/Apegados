@@ -1,31 +1,43 @@
-.banner
-    div{
+.icono{
+    height: 35px !important; 
+    width: 35px !important;
+           
+}
+.icoHome{
+    background: url('../imagenes/iconos.png') no-repeat -515px -156px;
+}
+
+.icoPerfil{
+    background: url('../imagenes/iconos.png') no-repeat -517px -47px;
+}
+
+.banner div{
         text-align: center;
     }
-    img{
+.banner img{
         max-height: 200px;
         
     }
-nav 
-    div{
-        display: inline-flex;
-    }
-    a{
-        margin:5px; 
-    }
-    .icono{
-        height: 35px !important; 
-        width: 35px !important;
-               
-    } 
-
-    .icoHome{
-	    background: url('../imagenes/iconos.png') no-repeat -515px -156px;
+nav {
+    font-size: 0;
+}
+nav a{
+        
+    display: inline-flex;
+        padding:5px;
+        cursor: pointer;
     }
 
-    .icoPerfil{
-	    background: url('../imagenes/iconos.png') no-repeat -517px -47px;
+    nav a:hover{
+        background-color: rgba(126, 27, 225,0.3);
     }
+
+nav img{
+    height: 35px !important; 
+    width: 35px !important;
+    margin: 5px;
+}
+    
 
 
  /* Small devices (landscape phones, 576px and up)*/
@@ -33,10 +45,18 @@ nav
     .datos div{
         height: 33.33%;
     }
+
  }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
+    nav {
+        font-size: 20px;
+        
+    }
+    .boton{
+        text-decoration: none;
+    }
 
  }
 

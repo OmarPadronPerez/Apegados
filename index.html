@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilos/prueva.css" />
     <link rel="stylesheet" href="estilos/banner.css" />
+    <link rel="stylesheet" href="estilos/cuerpo.css" />
     <link rel="stylesheet" href="estilos/general.css" />
   </head>
   <body>
@@ -68,22 +69,75 @@
               asdf2
             </div>
             <!--     menu    -->
-            <nav id="menu" class="menu col-12 d-flex justify-content-center align-items-center">
-              <a href="a.html"><div class="icono icoHome"></div></a>
-              <a href="#"><div class="icono icoPerfil"></div></a>
-              <a href="#"><div class="icono icoPerfil"></div></a>
-              <a href="#"><div class="icono icoPerfil"></div></a>
-              <a href="#"><div class="icono icoPerfil"></div></a>
-              <a href="#"><div class="icono icoPerfil"></div></a>
-            </nav>
+            <!--<nav id="menu" class="menu  col-md-12 d-flex justify-content-around align-items-start">
+              <div class="boton"><div class="icono icoHome"></div>Inicio</div>
+              <div class="boton"><div class="icono icoPerfil"></div>Nosotros</div>
+              <div class="boton"><div class="icono icoPerfil"></div>Galeria</div>
+              <div class="boton"><div class="icono icoPerfil"></div>Contacto</div>
+            </nav>-->
+            <nav id="menu" class="menu  col-md-12 d-flex justify-content-around align-items-start">
+              <a class="boton" href="#home"><img src="imagenes/iconos/home.png" class="img-fluid" alt="Home"/>  Inicio</a>
+              <a class="boton" href="#nosotros"><img src="imagenes/iconos/nosotros.png" class="img-fluid" alt="Nosotros"/>Nosotros</a>
+              <a class="boton" href="#galeria"><img src="imagenes/iconos/galeria.png" class="img-fluid" alt="Galeria"/>Galeria</a>
+              <a class="boton" href="#"><img src="imagenes/iconos/contacto.png" class="img-fluid" alt="Contacto"/>Contacto</a>
+
             <!--     fin menu    -->
           </div>
         </div>
       </div>
       <!-- fin baner -->
     </header>
-    <div class="container"></div>
 
+    <div class="cuerpo container" id="home">
+      <!--    carrucel      -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/carrucel/1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/carrucel/2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/carrucel/3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/carrucel/4.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--    fin carrucel      -->
+      <!--      nosotros        -->
+      <div class="nosotros container " id="nosotros">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis veniam atque officiis neque delectus nulla 
+          voluptate facere! Repellat laudantium tempore nostrum minima ab quas ratione error commodi, cupiditate 
+          voluptatibus quis?</p>
+      </div>
+      <!--      fin nosotros        -->
+
+      <!--      Galeria        -->
+      <div class="galeria container " id="galeria">
+
+        
+      </div>
+
+    </div>
+    <!--      fin Galeria        -->
+    
     <!--bootstrap-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
