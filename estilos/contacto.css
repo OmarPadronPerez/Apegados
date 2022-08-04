@@ -1,36 +1,41 @@
-.galeria{
+.formulario{
+    background-color: rgba(  229, 152, 102, 0.6);
+}
+.formulario h1{
     text-align: center;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 70px;
 }
-.galeria img{
-    padding: 2px;
-    width: 80%;
+.formulario input{
+    border: none;
 }
+form .row {
+    margin: 10px;
 
+}
+form .row input{
+    width: 100%;
+}
+.boton img{
+    cursor: pointer;
+}
 
  /* Small devices (landscape phones, 576px and up)*/
  @media (min-width: 576px) { 
-    .galeria img{
-        width: 49%;
-    }
-}
+
+ }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-    .galeria img{
-        width: 32%;
+    form .etiqueta{
+        text-align: right;
     }
-}
+ }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-   
-}
+    
+ }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
-   
-}
-   
+    
+ }

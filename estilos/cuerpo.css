@@ -4,6 +4,16 @@
 .nosotros{
     text-align: justify;
 }
+.barra_contacto{
+background-color: white;
+}
+.btn_flotante {
+    position: fixed !important;
+    bottom: 0px;
+    left: 5px;
+    z-index: 99;
+}
+
 
 
 
