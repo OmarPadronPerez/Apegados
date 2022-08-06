@@ -7,6 +7,12 @@
 .barra_contacto{
 background-color: white;
 }
+.barra_contacto .dato{
+    height: 49%;
+}
+.barra_contacto img{
+    cursor: pointer;
+}
 .btn_flotante {
     position: fixed !important;
     bottom: 0px;
