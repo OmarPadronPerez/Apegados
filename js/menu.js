@@ -12,13 +12,18 @@ function cambiarColor(color){
 
 addEventListener("scroll", (event) => {
     console.log(principal.getBoundingClientRect().top);
-    if ((principal.getBoundingClientRect().top != 0)) {
-        console.log("dentro");
-        menu.style.backgroundColor = "rgba(255, 255, 255,1)";
-        cambiarColor("black");
-    } else {
-        menu.style.backgroundColor = "rgba(255, 255, 255,0)";
-        cambiarColor("white");
+
+    if(screen.width >= 575.99){
+        console.log("cel");
+        if ((principal.getBoundingClientRect().top != 0)) {
+            console.log("dentro");
+            menu.style.backgroundColor = "rgba(255, 255, 255,1)";
+            cambiarColor("black");
+        } else {
+            menu.style.backgroundColor = "rgba(255, 255, 255,0)";
+            cambiarColor("white");
+        }
     }
+    
 
 });
