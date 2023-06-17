@@ -23,6 +23,9 @@ a {
     text-decoration: none;
     color: black;
 }
+img{
+    max-width: 100%;
+}
 
 .menu{
     background-color: rgba(255, 255, 255,1);
