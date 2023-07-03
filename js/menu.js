@@ -11,12 +11,9 @@ function cambiarColor(color){
 }
 
 addEventListener("scroll", (event) => {
-    console.log(principal.getBoundingClientRect().top);
 
     if(screen.width >= 575.99){
-        console.log("cel");
         if ((principal.getBoundingClientRect().top != 0)) {
-            console.log("dentro");
             menu.style.backgroundColor = "rgba(255, 255, 255,1)";
             cambiarColor("black");
         } else {
