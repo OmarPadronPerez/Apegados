@@ -23,8 +23,8 @@
     <meta name="language" content="spanish">
     <meta name="distribution" content="local"><!--investigas-->
     <meta name="geo.region" content="MX"><!--investigas-->
-    <meta name="author" content="pegasus">
-    <meta name="copyright" content="Copyright Pegasus 2023">
+    <meta name="author" content="Apegados">
+    <meta name="copyright" content="Copyright Apegados 2023">
     <!--etiquetas meta-->
 
     <!--miniaturas-->
@@ -56,13 +56,17 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css?v=2.1">
 
 
+
 </head>
 
 <body>
+    <div id="inicio"></div>
     <header class="sticky-top menu" id="menu">
         <nav class="navbar navbar-expand-sm ">
             <div class="container-fluid" style="padding: 0; margin: 0px ">
-                <img src="img/logo.webp" class="" alt="" style="height: 100px;">
+                <a href="#inicio">
+                    <img src="img/logo.webp" class="" alt="" style="height: 100px;">
+                </a>
 
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -75,13 +79,13 @@
                             <a class="nav-link cambiarColor" href="#nosotros" aria-current="page">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link cambiarColor" href="#galeria" aria-current="page">Galeria</a>
+                            <a class="nav-link cambiarColor" href="galeria.html" aria-current="page">Galeria</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link cambiarColor" href="#" aria-current="page">Catalogo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link cambiarColor" href="#" aria-current="page">Contacto</a>
+                            <a class="nav-link cambiarColor" href="#contacto" aria-current="page">Contacto</a>
                         </li>
 
                     </ul>
@@ -113,7 +117,7 @@
             </div>
         </nav>
     </header>
-    <main id="principal">
+    <main class="principal" id="principal">
 
         <!--regla borrar-->
         <style>
@@ -150,16 +154,16 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img src="img/carrucel/1.png" class="w-100 d-block" alt="First slide">
+                    <img src="img/carrucel/1.webp" class="w-100 d-block" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/carrucel/2.png" class="w-100 d-block" alt="Second slide">
+                    <img src="img/carrucel/2.webp" class="w-100 d-block" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/carrucel/3.png" class="w-100 d-block" alt="Third slide">
+                    <img src="img/carrucel/3.webp" class="w-100 d-block" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/carrucel/4.png" class="w-100 d-block" alt="Third slide">
+                    <img src="img/carrucel/4.webp" class="w-100 d-block" alt="Third slide">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
@@ -172,16 +176,16 @@
             </button>
         </div>
         <!--fin carrucel-->
-        <div class="espacio"></div>
+        <div class="espacio" id="nosotros"></div>
 
         <!--nosotros-->
         <div class="nosotros container-fluid">
-            <div class="row justify-content-center align-items-center g-2">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-6">
                     <img src="img/nosotros.webp" alt="">
                 </div>
 
-                <div class="col-12 col-md-6" style="padding: 30px; text-align: justify;">
+                <div class="col-12 col-md-6 nosotros" style=" text-align: justify;">
                     <h2>Quienes somos</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex voluptatem pariatur non vitae
                         veniam? Corporis,cum?
@@ -205,11 +209,11 @@
 
         <!--nuestro producto-->
         <div class="container-fluid">
-            <div class="row justify-content-center align-items-center g-2">
+            <div class="row justify-content-center align-items-center">
                 <h2 class="col-12">Nuestras mochilas</h2>
             </div>
-            <div class="row justify-content-center align-items-center g-2">
-                <div class="col-12 col-md-2 col-lg-3">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-5 col-lg-3">
                     <img src="img/ventajas/comodidad.webp" alt="">
                     <h3>Comodidad</h3>
                     <p>
@@ -218,7 +222,7 @@
                         maiores dolores fugiat? Nobis.
                     </p>
                 </div>
-                <div class="col-12 col-md-2 col-lg-3">
+                <div class="col-12 col-md-5 col-lg-3">
                     <img src="img/ventajas/ergonomia.webp" alt="">
                     <h3>Ergonomía</h3>
                     <p>
@@ -227,7 +231,7 @@
                         maiores dolores fugiat? Nobis.
                     </p>
                 </div>
-                <div class="col-12 col-md-2 col-lg-3">
+                <div class="col-12 col-md-5 col-lg-3">
                     <img src="img/ventajas/comodidad.webp" alt="">
                     <h3>Practicidad</h3>
                     <p>
@@ -237,7 +241,7 @@
                     </p>
                 </div>
 
-                <div class="col-12 col-md-2 col-lg-3">
+                <div class="col-12 col-md-5 col-lg-3">
                     <img src="img/ventajas/comodidad.webp" alt="">
                     <h3>Seguridad</h3>
                     <p>
@@ -255,30 +259,30 @@
 
         <div class="container-fluid">
             <div class="row justify-content-center align-items-center g-2">
-                <div class="col-11 col-md-4">
-                    <img class="zoom_img" loading="lazy" src="img/galeria/1.png" alt="" srcset="">
+                <div class="col-11 col-md-6 col-lg-4">
+                    <img class="zoom_img" loading="lazy" src="img/galeria/1.webp" alt="" srcset="">
                 </div>
-                <div class="col-11 col-md-4">
-                    <img class="zoom_img" loading="lazy" src="img/galeria/2.png" alt="" srcset="">
+                <div class="col-11 col-md-6 col-lg-4">
+                    <img class="zoom_img" loading="lazy" src="img/galeria/2.webp" alt="" srcset="">
                 </div>
-                <div class="col-11 col-md-4">
-                    <img class="zoom_img" loading="lazy" src="img/galeria/3.png" alt="" srcset="">
+                <div class="col-11 col-md-6 col-lg-4">
+                    <img class="zoom_img" loading="lazy" src="img/galeria/3.webp" alt="" srcset="">
                 </div>
-                <div class="col-11 col-md-4">
-                    <img class="zoom_img" loading="lazy" src="img/galeria/4.png" alt="" srcset="">
+                <div class="col-11 col-md-6 col-lg-4">
+                    <img class="zoom_img" loading="lazy" src="img/galeria/4.webp" alt="" srcset="">
                 </div>
-                <div class="col-11 col-md-4">
-                    <img class="zoom_img" loading="lazy" src="img/galeria/5.png" alt="" srcset="">
+                <div class="col-11 col-md-6 col-lg-4">
+                    <img class="zoom_img" loading="lazy" src="img/galeria/5.webp" alt="" srcset="">
                 </div>
-                <div class="col-11 col-md-4">
-                    <img class="zoom_img" loading="lazy" src="img/galeria/6.png" alt="" srcset="">
+                <div class="col-11 col-md-6 col-lg-4">
+                    <img class="zoom_img" loading="lazy" src="img/galeria/6.webp" alt="" srcset="">
                 </div>
             </div>
 
             <div class="espacio"></div>
-
+            <div id="contacto"></div>
             <div class="row justify-content-center align-items-center g-2">
-                <a name="" id="" class="btn btn-primary col-10 col-md-4" style="font-size: 2rem;" href="#"
+                <a name="" id="" class="btn btn-primary col-10 col-md-4" style="font-size: 2rem;" href="galeria.html"
                     role="button">
                     Ver toda nuesta galeria
                 </a>
@@ -289,34 +293,31 @@
         <div class="espacio"></div>
         <div class="espacio"></div>
 
+
         <div class="container-fluid">
             <h2>Contacto</h2>
-            <div class="espacio"></div>
             <div class="row justify-content-center align-items-center g-2">
-                <div class="col-5">
+                <div class="col-12 col-lg-6">
                     <img src="img/contacto.png" alt="">
                 </div>
-                <form style="margin-left: 10px;" class="col-5" action="" method="post">
-                    <input class="col-12 col-lg-10" type="text" name="" id="nombre" placeholder="nombre">
-                    <input class="col-12 col-lg-10" type="email" name="" id="correo" placeholder="correo">
-                    <input class="col-12 col-lg-10" type="tel" name="" id="telefono" placeholder="Telefono">
-                    <br>
-                    <br>
-                    <p style="margin: 0;"><label for="mensaje">Deja tu mensaje</label></p>
-                    <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
-                    <br>
-                    <div class="col-10">
-                        <button type="button" class="btn btn-outline-primary">Enviar</button>
+                <br>
+                <form style="margin: auto;" class="col-12 col-md-10 col-lg-5" action="./enviar.php" method='POST'>
+                    <input class="col-12 inp_contacto" type="text" name="" id="nombre" placeholder="Nombre">
+                    <input class="col-12 inp_contacto" type="email" name="" id="correo" placeholder="Correo">
+                    <input class="col-12  inp_contacto" type="tel" name="" id="telefono" placeholder="Telefono">
+                    <textarea class="col-12  inp_contacto" id="mensaje" name="mensaje" rows="3"
+                        placeholder="Deja tu mensaje" style="resize: none;"></textarea>
+                    <div class="espacio"></div>
+                    <div class="col-12 ">
+                        <button type="button" class="btn btn-outline-primary col-12">Enviar</button>
                     </div>
-                    
-                    
                 </form>
             </div>
         </div>
-
-
-
     </main>
+
+    <div class="espacio"></div>
+
     <footer class="container-fluid" style="text-align: center;">
         <div class="row justify-content-center align-items-center g-2 Copyright">
             <div class="col-12 col-md-6">
@@ -340,12 +341,12 @@
 
         <div class="row justify-content-center align-items-center g-2">
             <div class="col-12">
-                <p>Página echo por <a target="_blank" href="https://www.google.com/">Pegasus software</a> </p>
+                <p>Página echa por <a target="_blank" href="https://www.google.com/">Pegasus software</a> </p>
             </div>
         </div>
 
     </footer>
-
+    
     <!--iniciar aos-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -354,7 +355,6 @@
 
     <!--script -->
     <script type="text/JavaScript" src="js/menu.js"></script>
-    <script type="text/JavaScript" src="js/modal_Imagen.js"></script>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

@@ -21,6 +21,4 @@ addEventListener("scroll", (event) => {
             cambiarColor("white");
         }
     }
-    
-
 });
